@@ -33,11 +33,11 @@ const auth = () => {
                     ) : (
                         <>
                             {auth.isAuthenticated ? (
-                                <button className="auth-button" onClick={auth.signOut}>
+                                <button className="auth-button w-full" onClick={auth.signOut}>
                                     <p>Continue to App</p>
                                 </button>
                             ) : (
-                                <button className="auth-button" onClick={auth.signIn}>
+                                <button className="auth-button w-full" onClick={auth.signIn}>
                                     <p>Login</p>
                                 </button>
                             )}
